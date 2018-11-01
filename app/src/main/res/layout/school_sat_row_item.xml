@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8b8378">
+
+    <TextView
+        android:text="dbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbn_tv"/>
+
+    <TextView
+        android:id="@+id/num_of_testers_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number of takers" />
+
+    <TextView
+        android:id="@+id/sat_reading_avg_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reading scores" />
+
+    <TextView
+        android:id="@+id/sat_math_score_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Scores" />
+
+    <TextView
+        android:id="@+id/sat_writing_avg_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Writing Scores" />
+
+    <TextView
+        android:id="@+id/school_name_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School" />
+
+
+</LinearLayout>
